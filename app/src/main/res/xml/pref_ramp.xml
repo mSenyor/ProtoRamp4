@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="user_risk_agree"
+        android:summary="@string/pref_description_user_agree"
+        android:title="@string/pref_title_user_agree"/>
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="ramp_up_switch"
+        android:summary="@string/pref_description_ramp_up_speed"
+        android:title="@string/pref_title_ramp_up_speed" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="boom_up_switch"
+        android:summary="@string/pref_description_boom_up_speed"
+        android:title="@string/pref_title_boom_up_speed" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="boom_down_switch"
+        android:summary="@string/pref_description_boom_down_speed"
+        android:title="@string/pref_title_boom_down_speed" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="ramp_down_switch"
+        android:summary="@string/pref_description_ramp_down_speed"
+        android:title="@string/pref_title_ramp_down_speed" />
+
+
+    <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+    <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="1000"
+        android:inputType="number"
+        android:key="max_speed_input"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/speed_bar_limit_title" />
+
+</PreferenceScreen>
+
+

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Proto Ramp alpha</string>
+<string name="action_settings">הגדרות</string>
+<string name="title_activity_ramp_controller4">שלט 4 כפתורים</string>
+<string name="device_list_text">לחץ על הכפתור כדי לחפש אחר התקנים.</string>
+<string name="up_button_label">הרמה</string>
+<string name="boom_up_button_label">הטייה למעלה</string>
+<string name="boom_down_button_label">הטייה למטה</string>
+<string name="down_button_label">הורדה</string>
+<string name="action_disconnect">התנתק</string>
+<string name="action_help">עזרה</string>
+<string name="action_about_this_app">אודות היישום</string>
+<string name="title_activity_settings">הגדרות</string>
+
+<!-- Strings related to Settings -->
+
+<!-- Example General settings -->
+<string name="pref_header_general">כללי</string>
+
+<string name="pref_title_social_recommendations">אפשר רשתות חברתיות</string>
+    <string name="pref_description_social_recommendations">המלצות ליצירת קשר על פי היסטוריית ההודעות שלך</string>
+
+<string name="pref_title_display_name">כינוי גלוי</string>
+<string name="pref_default_display_name">ישראלה ישראלי</string>
+
+<string name="pref_title_add_friends_to_messages">הוסף חבר להודעה</string>
+<string-array name="pref_example_list_titles">
+    <item>תמיד</item>
+    <item>כאשר ניתן</item>
+    <item>אף פעם</item>
+</string-array>
+<string-array name="pref_example_list_values">
+    <item>1</item>
+    <item>0</item>
+    <item>-1</item>
+</string-array>
+
+<!-- Example settings for Data & Sync -->
+<string name="pref_header_data_sync">מידע וסינכרון</string>
+
+<string name="pref_title_sync_frequency">תדירות סינכרון</string>
+<string-array name="pref_sync_frequency_titles">
+    <item>15 דקות</item>
+    <item>30 דקות</item>
+    <item>שעה</item>
+    <item>3 שעות</item>
+    <item>6 שעות</item>
+    <item>אף פעם</item>
+</string-array>
+<string-array name="pref_sync_frequency_values">
+    <item>15</item>
+    <item>30</item>
+    <item>60</item>
+    <item>180</item>
+    <item>360</item>
+    <item>-1</item>
+</string-array>
+
+<string-array name="list_preference_entries">
+    <item>רשומה 1</item>
+    <item>רשומה 2</item>
+    <item>רשומה 3</item>
+</string-array>
+
+<string-array name="list_preference_entry_values">
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+</string-array>
+
+<string-array name="multi_select_list_preference_default_value" />
+
+<string name="pref_title_system_sync_settings">הגדרות סינכרון מערכת</string>
+
+<!-- Example settings for Notifications -->
+<string name="pref_header_notifications">התראות</string>
+
+<string name="pref_title_new_message_notifications">התראה על הודעה חדשה</string>
+
+<string name="pref_title_ringtone">צילצול</string>
+<string name="pref_ringtone_silent">שקט</string>
+
+<string name="pref_title_vibrate">רטט</string>
+    <string name="pref_description_ramp_up_speed">אפשר/נטרל שליטה על מהירות הרמת הרמפה</string>
+    <string name="pref_description_boom_up_speed">אפשר/נטרל שליטה על מהירות הטיית הרמפה למעלה</string>
+    <string name="pref_description_boom_down_speed">אפשר/נטרל שליטה על מהירות הטיית הרמפה למטה</string>
+    <string name="pref_description_ramp_down_speed">אפשר/נטרל שליטה על מהירות הורדת הרמפה</string>
+<string name="pref_title_ramp_up_speed">אפשר מהירות הרמה</string>
+<string name="pref_title_boom_up_speed">אפשר מהירות הטייה למעלה</string>
+<string name="pref_title_boom_down_speed">אפשר מהירות הטייה למטה</string>
+<string name="pref_title_ramp_down_speed">אפשר מהירות הורדה</string>
+<string name="pref_header_ramp_control">הגדרות שליטה ברמפה</string>
+<string name="airplane_mode_dialog_confirm">אישור</string>
+<string name="airplane_mode_dialog_harsh_title">אזהרה!</string>
+<string name="airplane_mode_dialog_deny">יציאה מהיישום</string>
+<string name="airplane_mode_dialog_title">מצב טיסה</string>
+    <string name="airplane_mode_dialog_message">משיקולי בטיחות, היישום פועל רק כאשר המכשיר במצב טיסה. באפשרותך לאפשר מצב טיסה כעת או לצאת מהיישום. לפרטים נוספים עיין בתפריט העזרה של היישום.</string>
+    <string name="pref_description_user_agree">היישום לא יפעל ללא הסכמתך לכל התנאים ואישורך על ידי סימון תגית זאת.</string>
+<string name="pref_title_user_agree">אני מסכימה/מסכים לכל התנאים</string>
+
+<string name="title_activity_user_agreement">תנאי שימוש</string>
+<string name="dummy_button">כפתור דמה</string>
+<string name="dummy_content">תוכן\nדמה</string>
+<string name="user_agreement_checkbox_label">כל שימוש ביישום זה מתבצעים באחריותי המלאה והבלעדית.</string>
+<string name="user_agreement_title_text">שימו לב!</string>
+    <string name="user_agreement_content_text">בקיצור,\n
+        <b><u>אל תשתמשו ביישום זה!!!</u></b>\n\n
+אם בכל זאת בחרת להשתמש ביישום למרות הבקשה המפורשת שלי לא לעשות זאת, ראי/ה זאת כהצהרתך על לקיחת אחריות מלאה ובלעדית על כל ההשלכות של השימוש ביישום.\n\n
+        דברים שכדאי לשים לב אליהם:\n
+        1. זהו יישום <b>ניסיוני</b> שמיועד להפעיל <b>ציוד הידראולי כבד</b> בעזרת תקשורת אלחוטית.\n
+        2. <b>כל</b>שימום ביישום ו/או החומרה המשוייכת אליו יעשה ב<b>אחריותך הבלעדית</b>.\n
+        3.יישום זה מסופק ללא כל התחייבות ו/או הצהרה ו/או רמיזה לפעילותו התקינה או אופן שימוש מסויים שכדאי או ניתן לעשות בו בביטחה או אפילו תחת סיכון סביר.\n
+        4. גרסאות עתידיות של היישום לא יהיו או יחשבו להיות בטוחות או תקינות יןתר מגרסא זאת. הן אף עלולות להכיל מאפיינים לא ידועים ואף מסוכנים יותר מהשימוש בגרסא הזאת.\n\n
+   אם בכל זאת יעשה שימוש ביישום, ייתכן שכדאי לבחון אותו היטב ללא כל עומס על הרמפה המשוייכת לפני הרמת משאות ו/או בני אדם או לידם.\n
+        מומלץ שלא לנסות את היישום ו/או את החומרה המשוייכת אליו אם הרמפה המשוייכת אינה מצויידת במפסקי חירום.\n
+        יש לשים לב לכך שהיישום אינו מספק פלט ו/או משוב על אף אחת מפעולותיו השונות ולכן ווידוא מיקום האצבעות על המסך הוא באחריות המשתמש בלבד.\n
+        יש לזכור שתנאי מזג אוויר מסויימים, וסביבות עבודה מסויימות, יכולים להשפיע על הפעילות של היישום ו/או החומרה המשוייכת אליו בדרכים לא צפויות.\n
+        יש להחשיב את היישום ואל החומרה המשוייכת אליו כסכנה בכל עת. היישום מוצע לצרכי מחקר בלבד לכן יש להיזהר ולשמור על הבטיחות בעת הפעלתו.\n
+        מעת לעת מידע נוסף ו/או עדכונים למידע זה עלולים להיעשות זמינים באתר:\n
+        <a href="http://android.moransenyor.com">http://android.moransenyor.com</a>
+        \nלדיווח על שגיאות ניתן לפנות ל:\n
+        android@moransenyor.com\n\n\n</string>
+<string name="speed_bar_limit_title">מגבלת מכוון מהירות</string>
+<string name="no_paired_bluetooth_devices_found_message_text">לא נמצאו התקני Bluetooth משוייכים.</string>
+<string name="bluetooth_device_not_available_message_text">התקן Bluetooth לא זמין</string>
+<string name="please_turn_on_airplane_mode_message_text">אנא הכנס את המכשיר למצב טיסה</string>
+<string name="onProgressChanged_method_error_message">Error: RampController4.java class, onProgressChanged(SeekBar, int, boolean) method</string>
+<string name="connecting_status_message_text">מתחבר...</string>
+<string name="please_wait_status_message_text">נא להמתין...</string>
+<string name="connection_failed_status_message_text">החיבור נכשל. האם זהו התקן SPP Bluetooth? נסה שנית.</string>
+<string name="connected_status_message_text">מחובר.</string>
+<string name="disconnect_method_error_message_text">Error: RampController4.java class, Disconnect() method</string>
+</resources>

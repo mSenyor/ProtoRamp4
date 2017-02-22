@@ -1,0 +1,72 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:id="@+id/fullscreen_content"
+    tools:context="com.moransenyor.protoramp.UserAgreement">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/user_agreement_title_text"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="36sp"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent"
+                android:id="@+id/user_agreement_title"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="#000000"
+                android:text="@string/user_agreement_content_text"
+                android:id="@+id/user_agreement_message"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:text="@string/user_agreement_checkbox_label"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:layout_margin="10dp"
+                android:textSize="18sp"
+                android:id="@+id/user_agreement_checkbox"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:id="@+id/fullscreen_content_controls"
+            style="?metaButtonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@color/black_overlay"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</FrameLayout>
